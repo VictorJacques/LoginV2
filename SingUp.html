@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body
+    style="
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+      background-color: azure;
+    "
+  >
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        height: 230px;
+        align-items: center;
+        margin: auto;
+        background-color: burlywood;
+        border-radius: 20px;
+        border-color: black;
+        border-style: double;
+        border-width: 2px;
+      "
+    >
+      <h1 style="text-align: center">Cadastro</h1>
+      <input
+        id="username"
+        style="border-radius: 7px; border-width: 1px; padding: 4px"
+        type="text"
+        placeholder="Usuário"
+      />
+      <input
+        id="password"
+        style="
+          margin-top: 10px;
+          border-radius: 7px;
+          border-width: 1px;
+          padding: 4px;
+        "
+        type="password"
+        placeholder="Senha"
+      />
+      <input
+        id="passwordMatch"
+        style="
+          margin-top: 10px;
+          border-radius: 7px;
+          border-width: 1px;
+          padding: 4px;
+        "
+        type="password"
+        placeholder="Confirme sua senha"
+      />
+      <button
+        id="botaoLogin"
+        style="
+          margin-top: 10px;
+          border-radius: 7px;
+          border-width: 1px;
+          padding: 5px;
+        "
+      >
+        Entrar
+      </button>
+      <p id="semCadastro" href="SingUp.html">
+        <a href="index.html">Já tem Login? Entrar</a>
+      </p>
+    </div>
+    <script src="./singUp.js"></script>
+  </body>
+</html>
